@@ -19,8 +19,6 @@ stories
   .add('Danger', () => <Button type="danger" size="xs">!</Button>)
   .add('Testing default props', () => <Button>Default props</Button>)
 
-
-
 const h1Stories = storiesOf('h1', module);
 h1Stories
   .add('H1 element', () => <H1>This is a very simple Heading component</H1>)
